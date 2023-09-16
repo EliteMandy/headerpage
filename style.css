@@ -1,0 +1,129 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+   background-color: rgb(232, 232, 233);
+}
+
+.d0{
+    position: relative;
+    display:flex;
+    justify-items: auto;
+    background-color: rgb(255, 255, 255);
+    border-radius: 2px;
+    height: auto;
+    font-size:50px;
+}
+.d0 h1{
+    padding: 1cm;
+    font-weight:100;
+    color:#edebe8;
+    font-size:20px;
+}
+.dd0{
+    font-size: 20px;
+    padding:1cm;
+    margin-left: 25cm;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap:50px;
+}
+.dd0 span{
+    border-radius: 2px;
+    height:fit-content;
+}
+/* .dd0 #about span:hover{
+    display: flex;
+} */
+
+
+
+/**************************************NEON START *********************************************************/
+/*********************************************************** NEON END **************************************************************************/
+  .right .name{
+    color:#722098;
+    font-weight: 500;
+  }
+  .right .name h1{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size:3em;
+    justify-content: center;
+    justify-items: center;
+  }
+  .div2 .img2{
+    padding:20px;
+  }
+  .div2{
+    display:flex;
+    flex-direction:row;
+    height:fit-content;
+    width: fit-content;
+    margin-left:30%;
+
+  }
+  .div2 .img2 #image2{
+    height:50px;
+    border-radius: 50%;
+  }
+  .mypic{
+    display:flex;
+    padding-bottom: 1.5cm;
+    height:fit-content;
+    width: fit-content;
+    
+  }
+  /* .mypic img{
+    border:10px solid rgb(255, 255, 255);
+
+  } */
+  .container{
+    position:relative;
+    width:100%;
+    display:grid;/*to show the grid and display flex to show the flex container*/
+    grid-template-columns: 5fr 5fr; /*for colounm alignment */
+}
+.container .left{
+    position:relative;
+    /* background-color: rgb(69, 4, 97); */
+}
+.container .right{
+    position:relative;
+}
+.right .div2 .image-border{
+  display:flex;
+  flex-direction:row;
+}
+.right .div2{
+  display:flex;
+  margin-top:1.1cm;
+  flex-direction:column;
+  /* transform: rotate(-15deg); */
+}
+.left .information{
+  color:#a4c8b9;
+  font-size: 40px;
+  /* margin-top:30%; */
+  font-family: "Ink Free", Times, serif;
+  font-weight:800;
+  margin-left:1cm;
+}
+
+.left .information span{
+  color:rgb(232, 173, 34);
+}
+/* .line{
+  background-color:white;
+  margin-top:1cm;
+  margin-left:3cm;
+  height: 15cm;
+  width: 10px;
+  border-radius: 5px;
+} */
+#port{
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 25px;
+  color: black;
+  margin-left:15px;
+}
